@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+body {
+  background-color: rgb(135, 218, 221);
+}
+
+.content {
+  padding: 0 3vw;
+  margin-bottom: 100px;
+}
+
+.header {
+  width: 100%;
+  height: 10vh;
+  min-height: 55px;
+  background-color: cadetblue;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px 2%;
+}
+
+.intro-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.orgs-list dt {
+  font-weight: 700;
+}
+
+.orgs-list dd {
+  padding-left: 20px;
+}
+
+.intro-img {
+  flex: 2;
+  min-width: 30%;
+}
+
+.intro-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  position: sticky;
+  bottom: 0;
+  min-height: 50px;
+  background-color: cadetblue;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 0;
+  font-weight: 300;
+}
+
+footer p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 8px;
+}
+
+footer a {
+  flex: 1;
+  padding: 5px 8px;
+  background-color: rgb(0, 137, 142);
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  flex: 1;
+  transition: all 0.3s ease-in-out;
+  text-decoration: underline;
+  color: white;
+  background-color: rgb(69, 209, 214);
+}
