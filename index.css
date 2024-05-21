@@ -5,30 +5,26 @@
   font-family: "Noto Serif", serif;
 }
 
-header {
-  background-color: cadetblue;
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .section-header {
   text-align: left;
   margin-top: 20px;
+}
+
+.card-img-top {
+  padding: 100px;
+  box-sizing: border-box;
 }
 
 #intro-img {
   border-radius: 20px;
 }
 
+#contact-me {
+  margin-bottom: 30px;
+}
+
 footer {
-  width: 100%;
   background-color: cadetblue;
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
